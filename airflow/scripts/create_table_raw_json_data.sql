@@ -1,0 +1,20 @@
+CREATE TABLE USERS.sessions_raw (
+    `ts` Nullable(Int64),
+    `userId` Nullable(String),
+    `sessionId` Nullable(Int16),
+    `page` Nullable(String),
+    `auth` Nullable(String),
+    `method` Nullable(String),
+    `status` Nullable(Int16),
+    `level` Nullable(String),
+    `itemInSession` Nullable(Int16),
+    `location` Nullable(String),
+    `userAgent` Nullable(String),
+    `lastName` Nullable(String),
+    `firstName` Nullable(String),
+    `registration` Nullable(Int64),
+    `gender` Nullable(String),
+    `artist` Nullable(String),
+    `song` Nullable(String),
+    `length` Nullable(Float64)
+    ) ENGINE = TinyLog
